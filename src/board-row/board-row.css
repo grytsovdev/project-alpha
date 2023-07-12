@@ -1,0 +1,36 @@
+.letter-box {
+  font-family: "nyt-franklin";
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: bold;
+  vertical-align: middle;
+  box-sizing: border-box;
+  color: var(--tile-text-color);
+  text-transform: uppercase;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: 1px solid black;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+.orange {
+  background-color: orange;
+  color: white;
+}
+.gray {
+  background-color: gray;
+  color: white;
+}
